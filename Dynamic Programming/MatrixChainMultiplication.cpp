@@ -24,7 +24,7 @@ int matrixMultiplication(vector<int> &arr, int N)
     return f(i, j, arr, dp);
 }
 
-/**    Memoiation
+/**    Tabulation Method
 int matrixMultiplication(vector<int> &arr, int n)
 {
     vector<vector<int>> dp(n, vector<int> (n, 0));
